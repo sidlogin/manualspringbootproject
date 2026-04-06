@@ -1,0 +1,14 @@
+package com.sidlearning.manualspringbootproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+
+@EnableAutoConfiguration
+@ComponentScan
+public class Main {
+    public static void main(String[] args) {
+        SpringApplication springApplication = new SpringApplication(Main.class);
+        springApplication.run();
+    }
+}
